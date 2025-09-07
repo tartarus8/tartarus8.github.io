@@ -1,0 +1,13 @@
+title: Your Name
+description: Personal site
+url: "https://tartarus8.github.io"
+baseurl: "/tartarus8.github.io"
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile.lock
+# No theme to keep things simple; we use our own layout and styles

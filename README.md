@@ -1,2 +1,3 @@
-# tartarus8.github.io
-My own little website
+# Simple Jekyll site for GitHub Pages
+
+Minimal, clean, and modular. Uses custom layout + includes + data.
