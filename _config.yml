@@ -1,4 +1,4 @@
-title: Your Name
+title: The wawa
 description: Personal site
 url: "https://tartarus8.github.io"
 baseurl: "/tartarus8.github.io"
@@ -10,4 +10,3 @@ exclude:
   - README.md
   - .gitignore
   - Gemfile.lock
-# No theme to keep things simple; we use our own layout and styles

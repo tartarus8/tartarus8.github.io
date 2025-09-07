@@ -1,3 +1,5 @@
-# Simple Jekyll site for GitHub Pages
+# The wawa — GitHub Pages site
 
-Minimal, clean, and modular. Uses custom layout + includes + data.
+- Pale-pink header and left dropdown menu
+- Roboto Mono Light
+- Pages: About, Projects, Puzzles, The funny

@@ -1,4 +1,8 @@
-- title: Home
-  url: /
 - title: About
   url: /about/
+- title: Projects
+  url: /projects/
+- title: Puzzles
+  url: /puzzles/
+- title: The funny
+  url: /the-funny/

@@ -3,11 +3,8 @@ layout: default
 title: Home
 permalink: /
 ---
-# Hello!
+# Welcome to The wawa
 
-This is your tiny website on GitHub Pages. Start by editing **_config.yml** (site title, URL) and the links in **_data/nav.yml**.
+This is a minimal site with a pale‑pink header and a left dropdown menu.
 
-- The code is intentionally small and modular (layout + includes + data).
-- Add new pages by creating a `.md` file with `layout: default` in the front matter.
-
-👉 Head over to the [About](/about/) page to see the simple profile layout.
+Edit `_data/nav.yml` to change links. Add pages as `.md` files with `layout: default`.

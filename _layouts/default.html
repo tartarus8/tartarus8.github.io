@@ -2,13 +2,35 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    <header class="container">
-      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true">
+    <header>
       {% include header.html %}
     </header>
-    <main class="container prose">
-      {{ content }}
-    </main>
+
+    <div class="layout">
+      <aside class="sidebar" aria-label="Site menu">
+        <details class="dropdown" {% if page.url == '/' %}open{% endif %}>
+          <summary>Menu</summary>
+          <nav>
+            <ul>
+              {% for item in site.data.nav %}
+                <li>
+                  <a href="{{ item.url | relative_url }}"
+                     {% if page.url == item.url %}aria-current="page"{% endif %}>
+                    {{ item.title }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </details>
+      </aside>
+
+      <main class="content">
+        {{ content }}
+      </main>
+    </div>
+
     <footer class="container">
       {% include footer.html %}
     </footer>
